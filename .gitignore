@@ -1,0 +1,39 @@
+# Node.js dependencies
+**/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+**/dist/
+**/build/
+
+# VSCode folder
+.vscode/
+
+# Ignore frontend & backend specific output
+frontend/.next/
+frontend/out/
+frontend/.cache/
+
+# Ignore coverage and test reports
+coverage/
+*.lcov
+
+# Smart contracts (Hardhat or Truffle) artifacts
+smart-contracts/artifacts/
+smart-contracts/cache/
+smart-contracts/typechain/
+smart-contracts/.env
